@@ -7,7 +7,9 @@ import server from '../index';
 let should = chai.should();
 
 import User from '../models/user.model';
-
+/*
+	I am not too good at write test cases but i tried. :)
+*/ 
 chai.use(chaiHttp);
 //Our parent block
 describe('Users', () => {

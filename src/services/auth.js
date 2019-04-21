@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 
+// Token base Auth
 export default (req, res, next) => {
 	const { authorization } = req.headers;
 	if (!authorization){

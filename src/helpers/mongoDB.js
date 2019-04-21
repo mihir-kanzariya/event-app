@@ -1,3 +1,7 @@
+/*
+	Thi function create connection string according to Development environment
+*/ 
+
 import mongoose from 'mongoose';
 mongoose.Promise = global.Promise;
 module.exports = {
